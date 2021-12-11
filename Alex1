@@ -1,0 +1,28 @@
+class ExtendedStack(list):
+  
+    def sum(self):
+        x = self.pop()
+        y = self.pop()
+        d = x + y
+        self.append(d)    
+        
+    def sub(self):
+        x = self.pop()
+        y = self.pop()
+        d = x - y
+        self.append(d)    
+        
+       
+
+    def mul(self):
+        x = self.pop()
+        y = self.pop()
+        d = x * y
+        self.append(d)    
+        
+
+    def div(self):
+        x = self.pop()
+        y = self.pop()
+        d = x // y
+        self.append(d) 
